@@ -1,0 +1,30 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 62px;
+    text-align: center;
+}
+
+.content-grid {
+  max-width: 720px;
+  margin: auto;
+}
+
+#introduction img {
+  width: 100%;
+}
+
+
+#remainstheday img {
+    max-width: 360px;
+    float: right;
+}
+
+section {
+    clear: both;
+    margin: 5em auto;
+    overflow: hidden;
+}
