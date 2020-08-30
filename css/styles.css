@@ -3,9 +3,9 @@ body {
 }
 
 h1 {
-    font-family: 'Pacifico', cursive;
-    font-size: 62px;
-    text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 62px;
+  text-align: center;
 }
 
 .content-grid {
@@ -17,16 +17,15 @@ h1 {
   width: 100%;
 }
 
-
 #remainstheday img {
-    max-width: 360px;
-    float: right;
+  max-width: 360px;
+  float: right;
 }
 
 section {
-    clear: both;
-    margin: 5em auto;
-    overflow: hidden;
+  clear: both;
+  margin: 5em auto;
+  overflow: hidden;
 }
 
 #social {
@@ -38,6 +37,11 @@ section {
   width: 25px;
   height: 25px;
   margin-right: 15px;
+}
+
+#endurance-races img {
+  width: 30%;
+  float: right;
 }
 
 #companies .logo-container {
@@ -56,4 +60,25 @@ section {
   max-width: 150px;
   width: 100%;
   margin: 10px;
+}
+
+#marathon-results p {
+  display: inline-block;
+}
+
+#marathon-results img {
+  width: 99%;
+  border: 1px solid #cecece94;
+}
+
+#redkix img {
+  width: 99%;
+  border: 1px solid #cecece94;
+}
+
+#pearson-pulse img {
+  width: 30%;
+  float: right;
+  margin-left: 10px;
+  border: 1px solid #cecece94;
 }
