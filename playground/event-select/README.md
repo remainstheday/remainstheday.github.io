@@ -1,5 +1,6 @@
 Event Search Filter App
 ===
+This prototype fetches json event data and filters down the results using create-react-app and react-select as the main dependency.
 
 
 Features:
