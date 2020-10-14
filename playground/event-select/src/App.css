@@ -1,0 +1,25 @@
+.App {
+  width: 100%;
+  max-width: 960px;
+  margin: 3em auto;
+}
+
+.events-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.events-grid .card {
+  margin: 1em;
+}
+
+.filters-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters-container .filter-dropdown {
+  width: 20%;
+}
