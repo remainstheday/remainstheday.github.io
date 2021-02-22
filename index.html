@@ -4,13 +4,18 @@
   <head>
     <meta charset="utf-8" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93552009-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-93552009-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'UA-93552009-1');
+      gtag("config", "UA-93552009-1");
     </script>
 
     <link
@@ -23,10 +28,8 @@
       content="The personal website of Trenton Kennedy"
     />
     <meta name="author" content="TrentonKennedy" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
@@ -34,148 +37,49 @@
     <link rel="stylesheet" href="css/styles.css?v=1.0" />
   </head>
 
-  <body>
-    <div class="content-grid">
-      <h1>Trenton Kennedy</h1>
+  <body class="theme-dark container">
+    <nav class="main-navigation">
+      <a href="/" class="logo">Trenton Kennedy</a>
+<!--      <div class="nav-list">-->
+<!--        <a href="/projects.html">Projects</a>-->
+<!--        <a href="/essays.html">Essays</a>-->
+<!--        <a href="/fitness.html">Fitness</a>-->
+<!--      </div>-->
+    </nav>
+    <div class="home-page">
       <section id="introduction">
-        <img src="images/me.jpeg" alt="Trenton Kennedy coding" />
-        <p>
-          Trenton is a UI Engineer developing interfaces for non-profits at
-          iDonate. His aim is to someday combine his knowledge of software with
-          a passion for sports science. When he's not coding at a computer you
-          can find him surviving a Crossfit workout or exploring new trails with
-          his dog Marley. Below are a few of his projects and accomplishments.
-        </p>
-        <div id="social">
-          <a href="https://www.linkedin.com/in/trentonk/">
-            <img width="25" height="25" src="images/logo-linkedin.svg" alt="" />
-          </a>
-          <!--
-           <a href="https://www.instagram.com/remainstheday/">
-            <img
-              width="25"
-              height="25"
-              src="images/logo-instagram.svg"
-              alt=""
-            />
-          </a> 
-          -->
-          <!--         
-          <a href="https://www.youtube.com/channel/UCooAAuBNZMb9dDVfdxKDaFg">
-            <img width="25" height="25" src="images/logo-youtube.svg" alt="" />
-          </a> 
-           -->
-          <a href="https://github.com/remainstheday">
-            <img width="25" height="25" src="images/logo-github.svg" alt="" />
-          </a>
+        <div class="photo-container">
+          <div class="home-photo"></div>
         </div>
-      </section>
+        <div class="home-content">
+          <i>Christian / Engineer / Triathlete</i>
+          <p>
+            Trenton is a Software Engineer working on internal tools at Twitter. His aim is to someday combine his knowledge of software
+            with a passion for endurance sports. When he's not at the computer coding you can find him surviving a Crossfit workout or exploring
+            new trails with his dog Marley.
+          </p>
+          <div id="social">
+            <a href="https://www.linkedin.com/in/trentonk/">
+              <img
+                width="25"
+                height="25"
+                src="images/logo-linkedin.svg"
+                alt=""
+              />
+            </a>
 
-      <section id="endurance-races">
-        <h2>Endurance Races</h2>
-        <img src="images/trenton-racing2.JPG" alt="" />
-        <p>
-          Since my first marathon in 2008 I have competed in over 15 races
-          across 4 different states and counting. This is a small list of some
-          of my notable endurance accomplishments to date.
-        </p>
-        <ul>
-          <li>
-            Finished the Dallas Whiterock Marathon at 17 years old with a time
-            of 5hrs 4min.
-          </li>
-          <li>3x OKC Marathon finisher with a personal best of 3hrs 32min.</li>
-          <li>Finished the Austin Texas 2016 Half Ironman.</li>
-          <li>
-            6x Olympic Triathlon finisher with a personal best of 2hrs 27min
-            (2nd place).
-          </li>
-          <li>
-            Served as a running pacer (miles 50-60) during the Leadville 100
-            trail run.
-          </li>
-        </ul>
-      </section>
+            <a href="https://www.instagram.com/remainstheday/">
+              <img
+                width="25"
+                height="25"
+                src="images/logo-instagram.svg"
+                alt=""
+              />
+            </a>
 
-      <section id="marathon-results">
-        <h2>St. Jude Marathon Results</h2>
-        <img src="images/marathon-results.png" alt="" />
-        <p>
-          While working for St. Jude Children's Hospital I had the opportunity
-          to be apart of some amazing projects. One of my most notable
-          accomplishments was leading a team in improving the online marathon
-          results experience. With roughly 6 weeks before race day we
-          successfully designed, developed and launched the
-          <a href="https://cdn.stjude.org/resources/marathon-results/index.html"
-            >new experience</a
-          >.
-        </p>
-      </section>
-
-      <section id="pearson-pulse">
-        <h2>Pearson Pulse</h2>
-        <img src="images/pearson-pulse.png" alt="" />
-        <p>
-          In 2018 I worked as a contractor to help rebrand Pearson Education's
-          "Pulse Portal" for mobile and web. The most rewarding aspect of this
-          project was supporting over 8 different languages within a single
-          interface. The application is invite only based on school district but
-          a preview can be found in the
-          <a
-            href="https://play.google.com/store/apps/details?id=com.pearson.android.pulse.r3&hl=en"
-            >Android Marketplace</a
-          >.
-        </p>
-      </section>
-
-      <section id="redkix">
-        <h2>Redkix</h2>
-        <img src="images/redkix-homepage.png" alt="" />
-        <p>
-          In 2016 I worked alongside
-          <a href="https://dribbble.com/victorerixon">Victor Erixon</a> and the
-          marketing team at Redkix to develop their entire digital marketing.
-          This work included a custom website, email templates, and a brand
-          style guide. Redkix has since been
-          <a
-            href="https://www.vox.com/2018/7/26/17615946/facebook-acquisition-redkix-workplace-email-messaging-subscriptions"
-          >
-            purchased by Facebook
-          </a>
-          and converted into what is now known as Workplace.
-        </p>
-      </section>
-
-      <section id="companies">
-        <h2>Brands I've Worked With</h2>
-        <p>
-          Alltogether I have been fortunate enough to work with some amazing
-          brands including:
-        </p>
-        <div class="logo-container">
-          <div class="logo">
-            <img src="images/effectiveui.png" alt="" />
-          </div>
-          <div class="logo">
-            <img src="images/proaudiofiles.jpg" alt="" />
-          </div>
-          <div class="logo">
-            <img height="50" src="images/equitymultiple.png" alt="" />
-          </div>
-          <div class="logo">
-            <img src="images/stjude.png" alt="" />
-          </div>
-          <div class="logo">
-            <img src="images/missioncap.png" alt="" />
-          </div>
-          <div class="logo">
-            <img width="100" height="125" src="images/redkix.png" alt="" />
-          </div>
-          <div class="logo">
-            <img src="images/sonicscoop.png" alt="" />
-          </div>
-          <div class="logo">
-            <img width="100" src="images/pearson-logo.svg" alt="" />
+            <a href="https://github.com/remainstheday">
+              <img width="25" height="25" src="images/logo-github.svg" alt="" />
+            </a>
           </div>
         </div>
       </section>
