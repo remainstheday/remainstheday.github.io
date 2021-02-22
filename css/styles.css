@@ -1,31 +1,101 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
-  font-size: 62px;
-  text-align: center;
+  color: #fff;
 }
 
-.content-grid {
-  max-width: 720px;
-  margin: auto;
+i {
+  color: #fff;
 }
 
-#introduction img {
+.home-content p {
+  color: #a9a9a9;
+}
+
+.container {
+}
+
+.theme-dark {
+  background: #222222;
+  margin: 0;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 2em auto;
+  max-width: 1200px;
+}
+
+.main-navigation a {
+  color: #9d9d9d;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+.main-navigation a:hover {
+  color: #fff;
+}
+
+.main-navigation a.logo {
+  color: #fff;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 48px;
+}
+
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+#introduction {
+  display: flex;
+  max-width: 1200px;
   width: 100%;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo-container {
+  width: 30%;
+}
+
+#introduction .home-photo {
+  background-image: url(../images/me.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 18px solid #444;
+  display: block;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  position: relative;
+  padding-bottom: calc(100% - 36px);
+  border-radius: 1000px;
+  overflow: hidden;
+  background-color: #444;
+  -webkit-box-shadow: 0 0 25px 0 rgb(0 0 0/80%);
+  -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 25px 0 rgb(0 0 0 / 80%);
+}
+
+.home-content {
+  width: 60%;
+}
+
+.home-content i {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 #remainstheday img {
   max-width: 360px;
   float: right;
-}
-
-section {
-  clear: both;
-  margin: 5em auto;
-  overflow: hidden;
 }
 
 #social {
